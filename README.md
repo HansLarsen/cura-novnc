@@ -8,8 +8,6 @@ This is a super basic noVNC build using supervisor to serve Cura in your favorit
 
 This is super similar to my [prusaslicer-novnc](https://github.com/helfrichmichael/prusaslicer-novnc) container and basically just adapts that for using Cura via VNC.
 
-Please note: This is a work-in-progress and the Docker image is larger than I'd like it to be. More updates to come soon. Specifically the image is using the extracted AppImage version which results in extra copies of dependencies that might already exist.
-
 ## How to use
 
 **In unraid**
