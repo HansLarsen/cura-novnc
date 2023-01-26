@@ -3,7 +3,7 @@
     <menu id="root-menu" label="Openbox 3">
         <item label="Cura">
             <action name="Execute">
-                <execute>/cura/squashfs-root/AppRun</execute>
+                <execute>/bin/bash -c "export DISPLAY=:0 && source /home/cura/cura/venv/bin/activate && python3 /home/cura/cura/cura_app.py"</execute>
             </action>
         </item>
         <item label="Terminal">

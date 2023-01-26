@@ -2,6 +2,8 @@
 
 ## Overview
 
+This is a modified version of helfrichmichael's novnc container, this one compiles cura from source, and runs the compiled version.
+
 This is a super basic noVNC build using supervisor to serve Cura in your favorite web browser. This was primarily built for users using the [popular unraid NAS software](https://unraid.net), to allow them to quickly hop in a browser, slice, and upload their favorite 3D prints. 
 
 This is super similar to my [prusaslicer-novnc](https://github.com/helfrichmichael/prusaslicer-novnc) container and basically just adapts that for using Cura via VNC.
